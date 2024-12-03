@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "281969821797",
+    "project_id": "courtvision-af82b",
+    "storage_bucket": "courtvision-af82b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281969821797:android:36ccbbc0f717eba51c1e8c",
+        "android_client_info": {
+          "package_name": "com.example.courtvision"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlhe1OcXtq_xQa8SeC2ZjOPlCtOrcR974"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

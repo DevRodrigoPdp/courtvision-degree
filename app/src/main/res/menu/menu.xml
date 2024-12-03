@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Equipos"
+        android:title="Equipos"
+        android:icon="@drawable/equipocolor"
+        app:showAsAction="ifRoom|withText"
+        android:enabled="true"
+        />
+
+    <item
+        android:id="@+id/Calendario"
+        android:title="Calendario"
+        android:icon="@drawable/calendariocolor"
+        app:showAsAction="ifRoom|withText"
+        android:enabled="true"
+        />
+
+    <item
+        android:id="@+id/Ayuda"
+        android:title="Ayuda"
+        android:icon="@drawable/ayudacolor"
+        app:showAsAction="ifRoom|withText"
+        android:enabled="true"
+        />
+</menu>

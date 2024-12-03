@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginfondo">
+
+    <TextView
+        android:id="@+id/tvTituloJugador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Añada un jugador"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTituloJugador"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Campo de entrada para el nombre -->
+            <EditText
+                android:id="@+id/FormularioNombreJugador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-black"
+                android:hint="Nombre del jugador"
+                android:inputType="text"
+                android:minHeight="48dp" />
+
+            <!-- Campo de entrada para el dorsal -->
+            <EditText
+                android:id="@+id/FormularioDorsalJugador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-black"
+                android:hint="Dorsal"
+                android:inputType="text"
+                android:minHeight="48dp" />
+
+            <!-- Campo de entrada para la salud -->
+            <EditText
+                android:id="@+id/FormularioSaludJugador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-black"
+                android:hint="Salud del jugador"
+                android:inputType="text"
+                android:minHeight="48dp" />
+
+            <!-- Campo de entrada para el teléfono -->
+            <EditText
+                android:id="@+id/FormularioTelefonoJugador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-black"
+                android:hint="Teléfono"
+                android:inputType="text"
+                android:minHeight="48dp" />
+
+            <!-- Campo de entrada para la posición -->
+            <EditText
+                android:id="@+id/FormularioPosicionJugador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-black"
+                android:hint="Posición del jugador"
+                android:inputType="text"
+                android:minHeight="48dp" />
+
+            <!-- Campo de entrada para la fecha de nacimiento -->
+            <EditText
+                android:id="@+id/FormularioFechaJugador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-black"
+                android:hint="Fecha de nacimiento"
+                android:inputType="text"
+                android:minHeight="48dp" />
+
+            <Spinner
+                android:id="@+id/spinnerEquipos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp" />
+
+            <!-- Vista previa de la imagen seleccionada -->
+            <ImageView
+                android:id="@+id/ImagenFormularioEquipo"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:visibility="gone" />
+
+            <!-- Botón para enviar el formulario -->
+            <Button
+                android:id="@+id/BtnEnviarFormularioJugador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/purple_700"
+                android:text="Añadir jugador"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/BtnVolverAñadirJugador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_700"
+                android:text="Volver"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+

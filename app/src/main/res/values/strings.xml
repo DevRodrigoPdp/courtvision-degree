@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">COURTVISION</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hora_del_evento">Hora del evento</string>
+</resources>
